@@ -41,39 +41,48 @@ html
 
 style.css
 body{
-    background: linear-gradient(to right, blue, pink, red);
-}
-table.tbl{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-input[type="button"]{
-    color: black;
-    cursor: pointer;
-    background-color: white;
-    font-size: 2em;
+    background:linear-gradient(to right, #6F3F36, #804F46, #A5766D, #CBA9A3);
+  }
+  table.tb1{
+    position:absolute;
+    top:45%;
+    left:35%;
+    transform:transtale(-50%, -50%);
+    border:1px solid black;
+    background:grey;
+    box-shadow:5px 10px;
+    border-radius:25px;
+  }
+  input[type="button"]{
+    cursor:pointer;
+    color:black;
+    background-color:white;
+    width:2em;
+    height:2em;
+    font-family:cursive;
+    font-size:large;
+    font-weight:bold;
+    border:1px solid white;
+    margin:2px;
+     border-radius:25px;
+  }
+  input[type="text"]{
+    width:85%;
+    padding:7px;
+    font-family:sans-serif;
+    font-weight:bold;
+    border:1px solid black;
+    background:white;
+    color:black;
+    font-size:large ;
+     border-radius:25px;
+  }
+  #clear{
+    color:black;
+    background-color:pink;
+    width:2em;
     border: 1px solid white;
-    padding: 20px;
-    width: 100%;
-    margin: 10px 60px 10px 0px;   
-}
-input[type="text"]{
-    color: black;
-    background-color: white;
-    padding: 20px;
-    border: 1px solid white;
-    font-size: 2em;
-    width: 100%;
-
-}
-#clear{
-    background: pink;
-    border: 1px solid pink;
-}
+  }
 
 script.js
 function Num(val){ 
