@@ -1,0 +1,43 @@
+body{
+    background:linear-gradient(to right, #6F3F36, #804F46, #A5766D, #CBA9A3);
+  }
+  table.tb1{
+    position:absolute;
+    top:45%;
+    left:35%;
+    transform:transtale(-50%, -50%);
+    border:1px solid black;
+    background:grey;
+    box-shadow:5px 10px;
+    border-radius:25px;
+  }
+  input[type="button"]{
+    cursor:pointer;
+    color:black;
+    background-color:white;
+    width:2em;
+    height:2em;
+    font-family:cursive;
+    font-size:large;
+    font-weight:bold;
+    border:1px solid white;
+    margin:2px;
+     border-radius:25px;
+  }
+  input[type="text"]{
+    width:85%;
+    padding:7px;
+    font-family:sans-serif;
+    font-weight:bold;
+    border:1px solid black;
+    background:white;
+    color:black;
+    font-size:large ;
+     border-radius:25px;
+  }
+  #clear{
+    color:black;
+    background-color:pink;
+    width:2em;
+    border: 1px solid white;
+  }
